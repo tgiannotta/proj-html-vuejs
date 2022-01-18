@@ -24,8 +24,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./style/general.scss";
 #app {
-  @import "./style/general.scss";
+
   main{
     height: 2000px;
     background-color: orange;
