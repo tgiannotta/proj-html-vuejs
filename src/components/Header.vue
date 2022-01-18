@@ -37,8 +37,8 @@
                     <h3>Digital Technology</h3>
                     <h3>Modern Solution !</h3>
                     <h5>When, while the lovely valley teems with vapour around<br>meand the meridian sun strikes the upper surface.</h5>
-                    <button class="try">Try it now</button>
-                    <button class="explore">Explore More</button>
+                    <button class="try"> <a href="#">Try it now</a> </button>
+                    <button class="explore"><a href="#">Explore More</a></button>
                 </div>
                 <div class="business-img">
                     <img src="../assets/img/header.png" alt="plan-img">
@@ -61,7 +61,7 @@ export default {
 @import "../style/variables.scss";
     
     header{
-         background-color: #09154d;
+         background-color: $colore-terziario;
          height: 900px;
    
     .container{
@@ -88,11 +88,9 @@ export default {
                     display: flex;
                    li{
                        margin-right: 30px;
-                       a{
-                           color: $colore-primario;
-                           .active{
-                                color: #f9636b;  
-                            }
+                       .active{
+                          color: $colore-secondario; 
+                          
                        } 
                     
                    }
@@ -118,7 +116,7 @@ export default {
                 margin-bottom: 10px;
             }
             h5{
-                color: #0495c1;
+                color: $colore-quarto;
                 font-size: 15px;
                 margin: 50px 0px;
             }

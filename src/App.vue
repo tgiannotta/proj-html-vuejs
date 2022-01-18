@@ -2,7 +2,9 @@
   <div id="app">
     <Header />
     <main>
-      <Services />
+    <Services />
+    <About />
+
     </main>
     <Footer />
   </div>
@@ -13,6 +15,8 @@
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Services from "./components/Services.vue";
+import About from "./components/About.vue";
+
 
 
 
@@ -22,6 +26,7 @@ export default {
    Header,
    Footer,
    Services,
+   About,
   },
 };
 </script>
