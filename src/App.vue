@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <main>
-      <h2>Prova main</h2>
+      <Services />
     </main>
     <Footer />
   </div>
@@ -12,6 +12,8 @@
 
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import Services from "./components/Services.vue";
+
 
 
 export default {
@@ -19,6 +21,7 @@ export default {
   components: {
    Header,
    Footer,
+   Services,
   },
 };
 </script>
