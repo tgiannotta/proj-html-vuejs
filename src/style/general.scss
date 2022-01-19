@@ -24,7 +24,7 @@ a.white{
 }
 
 button{
-    background-color: #0d83b8;
+    background-color: $colore-quarto;
     padding: 15px 30px;
     border-radius: 50px;
     font-size: 20px;
@@ -35,13 +35,20 @@ button.try{
     margin-right: 20px;
     background-color: $colore-secondario;
     color: $colore-primario;
+    }
+button.try:hover{
+    background-color: $colore-quarto;
+}
 
+button.explore:hover{
+    background-color: $colore-secondario;
 }
 
 button.white{
     background-color: $colore-primario;
     
 }
+
 
 
 

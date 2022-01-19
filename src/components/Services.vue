@@ -7,28 +7,36 @@
         </div>
         <div class="colonne-container">
             <div class="colonne-servizi">
-                <div class="colonna-singola">
-                    <img src="../assets/img/Group-538.png" alt="img1">
+                <div class="colonna-singola pos-rel">
+                    <img src="../assets/img/Group-247.png" alt="img1">
                     <h4>Data Analysis</h4>
                     <p>When, while the lovely valley teems with vapour around<br>meand the meridian sun strikes the upper surface. </p>
+                    <button class="try"> <a href="#"> <i class="fas fa-arrow-right"></i>  </a> </button>
+                    
 
                 </div>
-                 <div class="colonna-singola">
+                 <div class="colonna-singola pos-rel">
                     <img src="../assets/img/Group-538.png" alt="img2">
                     <h4>Securiy Data</h4>
                     <p>When, while the lovely valley teems with vapour around<br>meand the meridian sun strikes the upper surface. </p>
+                    <button class="try"> <a href="#"> <i class="fas fa-arrow-right"></i>  </a> </button>
+
 
                 </div>
-                 <div class="colonna-singola">
+                 <div class="colonna-singola pos-rel">
                     <img src="../assets/img/Group-566.png" alt="img3">
                     <h4>Branding Strategy</h4>
                     <p>When, while the lovely valley teems with vapour around<br>meand the meridian sun strikes the upper surface. </p>
+                    <button class="try"> <a href="#"> <i class="fas fa-arrow-right"></i>  </a> </button>
+
 
                 </div>
-                <div class="colonna-singola">
+                <div class="colonna-singola pos-rel">
                     <img src="../assets/img/Group-567.png" alt="img4">
                     <h4>Seo Optimitation</h4>
                     <p>When, while the lovely valley teems with vapour around<br>meand the meridian sun strikes the upper surface. </p>
+                    <button class="try"> <a href="#"> <i class="fas fa-arrow-right"></i>  </a> </button>
+
 
                 </div>
                
@@ -84,6 +92,7 @@ export default {
                 justify-content: space-between;
            
             }
+           
         .colonna-singola h4{
             text-align: center;
             font-size: 30px;
@@ -93,6 +102,7 @@ export default {
         }
         .colonna-singola img{
             width: 150px;
+            height: 150px;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -107,6 +117,40 @@ export default {
            top: 80%;
            left: 45%;
        }
+       .colonna-singola button{
+           display: none;
+       }
+       .colonna-singola:hover{
+           background-color: $colore-terziario;
+           color: $colore-primario;
+           border-radius: 10%;
+           img{
+               position: absolute;
+               background-color: $colore-primario;
+               border-radius: 10%;
+               top: -50px;
+               left: 125px;
+               }
+            h4{
+                position: absolute;
+                top: 100px;
+                left: 100px;
+            }
+            p{
+                color: $colore-terziario;
+            }
+            button{
+                display: block;
+                position: absolute;
+                left: 150px;
+                bottom: -20px;
+            }
+
+        
+          
+          
+        }
+       
     } 
 
 </style>
