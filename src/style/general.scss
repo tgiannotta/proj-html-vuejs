@@ -31,5 +31,31 @@ button{
 
 button.try{
     margin-right: 20px;
-    background-color: #ee586b;
+    background-color: $colore-secondario;
+}
+
+button.white{
+    background-color: lightgrey;
+    color: $colore-secondario;
+}
+
+
+
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.mrg-bot-30{
+    margin-bottom: 30px;
+}
+.mrg-bot-10{
+    margin-bottom: 10px;
+}
+.mrg-top-20{
+    margin-top: 20;
+}
+.bold{
+    font-weight: bold;
 }

@@ -38,7 +38,7 @@
                     <h3>Modern Solution !</h3>
                     <h5>When, while the lovely valley teems with vapour around<br>meand the meridian sun strikes the upper surface.</h5>
                     <button class="try"> <a href="#">Try it now</a> </button>
-                    <button class="explore"><a href="#">Explore More</a></button>
+                    <button class="explore"><a href="#">Explore More </a></button>
                 </div>
                 <div class="business-img">
                     <img src="../assets/img/header.png" alt="plan-img">
