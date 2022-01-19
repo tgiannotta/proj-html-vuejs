@@ -127,6 +127,7 @@ export default {
     }
      .description{
             margin-bottom: 50px;
+            color: $colore-primario;
         }
   
       

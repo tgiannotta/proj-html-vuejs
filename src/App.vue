@@ -7,6 +7,7 @@
     <About />
     <Portfolio />
     <PriceList />
+    <Blog />
     </main>
     <Footer />
   </div>
@@ -20,6 +21,8 @@ import Services from "./components/Services.vue";
 import About from "./components/About.vue";
 import Portfolio from "./components/Portfolio.vue";
 import PriceList from "./components/PriceList.vue";
+import Blog from "./components/Blog.vue";
+
 
 
 
@@ -35,6 +38,7 @@ export default {
    About,
    Portfolio,
    PriceList,
+   Blog,
   },
 };
 </script>
@@ -44,8 +48,8 @@ export default {
 #app {
 
   main{
-    height: 4000px;
-    background-color: orange;
+
+    height: 8000px;
   }
 }
 </style>

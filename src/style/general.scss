@@ -14,6 +14,9 @@ a{
     text-decoration: none;
     color: $colore-primario;
 }
+a.white{
+    color: $colore-secondario;
+}
 
 .container{
     width: 80%;
@@ -24,7 +27,6 @@ button{
     background-color: #0d83b8;
     padding: 15px 30px;
     border-radius: 50px;
-    color: $colore-primario;
     font-size: 20px;
   
 }
@@ -32,11 +34,13 @@ button{
 button.try{
     margin-right: 20px;
     background-color: $colore-secondario;
+    color: $colore-primario;
+
 }
 
 button.white{
-    background-color: lightgrey;
-    color: $colore-secondario;
+    background-color: $colore-primario;
+    
 }
 
 
@@ -58,4 +62,7 @@ button.white{
 }
 .bold{
     font-weight: bold;
+}
+img{
+    width: 100%;
 }
