@@ -45,7 +45,7 @@ export default {
 
 .blog-container{
     background-color: white;
-    height: 5000px;
+    height: 800px;
     margin-top: 600px;
     .descrizione{
         text-align: center;

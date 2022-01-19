@@ -8,6 +8,7 @@
     <Portfolio />
     <PriceList />
     <Blog />
+    <Testimonial />
     </main>
     <Footer />
   </div>
@@ -22,6 +23,8 @@ import About from "./components/About.vue";
 import Portfolio from "./components/Portfolio.vue";
 import PriceList from "./components/PriceList.vue";
 import Blog from "./components/Blog.vue";
+import Testimonial from "./components/Testimonial.vue";
+
 
 
 
@@ -39,6 +42,7 @@ export default {
    Portfolio,
    PriceList,
    Blog,
+   Testimonial,
   },
 };
 </script>
