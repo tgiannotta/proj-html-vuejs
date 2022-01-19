@@ -33,7 +33,7 @@
                 <p class="mrg-bot-10"><span class="bold">Eye</span> Catching Desing</p>
                 <p class="mrg-bot-10"><span class="bold">Extreme</span> Typoehy</p>
                 <p class="mrg-bot-30"><span class="bold">Exceptional</span> Design</p>
-                <button class="white"><a href="#">Order Now &emsp;&emsp;<i class="fas fa-arrow-right"></i></a></button>
+                <button class="white"><a class="white" href="#">Order Now &emsp;&emsp;<i class="fas fa-arrow-right"></i></a></button>
             </div>
             <div class="single-table">
                 <h3>Supporting</h3>
@@ -65,7 +65,7 @@ export default {
 .price-container{
     height: 500px;
     background-color: $colore-terziario;
-    color: $colore-primario;
+   /*  color: $colore-primario; */
     text-align: center;
     padding-top: 50px;
     h5{
@@ -128,6 +128,8 @@ export default {
      .description{
             margin-bottom: 50px;
         }
+  
+      
 }
 
 </style>
